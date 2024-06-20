@@ -114,17 +114,10 @@ gcov_report:
 clean_lib:
 	rm -f *.[oa]
 
-clean_cov:
-	rm -f *.gcno *.gcda *.info *.gcov $(TEST_TARG)
-
 clean_docs:
 	rm -rf docs
 
-cpp:
-	cppcheck --enable=all --suppress=missingIncludeSystem $(ALL_SRC_OBJ)
-
-clean: clean_lib clean_cov clean_docs
-	rm -f $(TEST_TARG)
+clean: clean_lib clean_docs
 	rm -rf report *.dSYM
 	rm -rf build
 
