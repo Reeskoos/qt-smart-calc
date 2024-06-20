@@ -1,6 +1,6 @@
 # Smart Calculator
 
-Smart_calc is a standart calculator with functions support.
+Smart_calc is a standart calculator with functions support.\
 Main logic developed in C, view part in C++ and Qt Framework. Code fully covered with unit-tests.
 
 <div>
